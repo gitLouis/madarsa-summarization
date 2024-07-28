@@ -1,8 +1,8 @@
-# Madarsa Questionnaire Summarization Project
+# Madarsa Questionnaire Summarization
 
 ## Overview
 
-This project aims to summarize questionnaires in Hebrew and Arabic for a language school NGO called מדרסה (Madrase). The project utilizes NLTK, BERTopic, Dicta 2.0, and other natural language processing tools.
+This project aims to summarize questionnaires in Hebrew and Arabic for a language school NGO called מדרסה (Madrase). The project utilizes NLTK, BERTopic, Dicta 2.0, Llama3.1 and other natural language processing tools.
 
 
 ## Installation
