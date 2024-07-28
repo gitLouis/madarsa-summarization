@@ -17,6 +17,7 @@ To set up the project, follow these steps:
 2. **Pull local LLM**: Download model, eg Hebrew-English LLM Dicta 2.0:
     ```bash
     ollama pull aminadaven/dictalm2.0-instruct:f16
+    # ollama pull llama3.1
     ```
 
 3. **Set Up Virtual Environment**:
