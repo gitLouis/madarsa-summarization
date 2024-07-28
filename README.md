@@ -12,7 +12,6 @@ To set up the project, follow these steps:
 1. **Install Ollama**: Download and install Ollama from [Ollama's website](https://ollama.com/download) or use Homebrew:
     ```bash
     brew install ollama
-    ollama pull aminadaven/dictalm2.0-instruct:f16
     ```
 
 2. **Pull local LLM**: Download model, eg Hebrew-English LLM Dicta 2.0:
