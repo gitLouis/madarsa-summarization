@@ -11,3 +11,6 @@ archive
 # Ignore file with credentials
 madrase-questionnaire-july-22-51ed22398a1d.json
 
+# ignore hidden files
+.*
+!/.gitignore
