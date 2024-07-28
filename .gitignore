@@ -1,9 +1,11 @@
 # Ignore venv folder
 venv*/
 
-# Ignore data folders
-output
-data
+# Ignore content of data folders
+output/*
+!output
+data/*
+!data
 archive
 
 # Ignore file with credentials
