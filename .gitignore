@@ -1,0 +1,11 @@
+# Ignore venv folder
+venv*/
+
+# Ignore data folders
+output
+data
+archive
+
+# Ignore file with credentials
+madrase-questionnaire-july-22-51ed22398a1d.json
+

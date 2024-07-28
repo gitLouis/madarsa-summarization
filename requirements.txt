@@ -1,0 +1,11 @@
+pandas
+ollama
+nltk
+bertopic
+sentence_transformers
+hdbscan
+umap
+gspread
+gspread-dataframe
+oauth2client
+ipykernel
