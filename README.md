@@ -39,3 +39,16 @@ To set up the project, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
+
+## Process Pipeline
+
+1. Basic sentence splitting (using NLTK Sentence Tokenizer)
+2. Topic Modeling (using BERTopic):
+    * Sentence Embedding (using HF sentence-transformers-alphabert)
+    * Dimensionality reduction (using UMAP)
+    * Clustering (using HDBSCAN)
+    * Topic representation (using BERTopic normalized-tfidf + LLM outside of BERTopic)
+3. Topic Summarizing (using LLM):
+    * Batch splitting 
+    * LLM Summarization for each batch
+    * LLM Summarization of summaries
