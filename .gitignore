@@ -1,16 +1,21 @@
 # Ignore venv folder
 venv*/
 
-# Ignore content of data folders
-output/*
-!output
-data/*
-!data
+# local archive
 archive
 
-# Ignore file with credentials
-madrase-questionnaire-july-22-51ed22398a1d.json
-
-# ignore hidden files
+# Ignore all hidden files and directories
 .*
-!/.gitignore
+
+# Recursively ignore content of all data subfolders
+data/**/
+!data/.gitkeep
+
+# Do not ignore a special file name
+!**/.gitkeep
+!/.env
+
+# Ignore file with credentials
+madrase-questionnaire-*.json
+
+**/__pycache__/
