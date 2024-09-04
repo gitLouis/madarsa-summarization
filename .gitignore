@@ -13,7 +13,6 @@ data/**/
 
 # Do not ignore a special file name
 !**/.gitkeep
-!/.env
 
 # Ignore file with credentials
 madrase-questionnaire-*.json
