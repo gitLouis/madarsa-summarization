@@ -9,3 +9,5 @@ ipykernel~=6.29.5
 ipywidgets~=8.1.5
 jupyterlab-widgets~=3.0.13
 widgetsnbextension~=4.0.13
+pytest~=8.3.2
+jupyterlab~=4.2.5
