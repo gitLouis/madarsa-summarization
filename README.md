@@ -4,6 +4,7 @@
 
 This project aims to summarize response for questionnaires in Hebrew, English and Arabic for a language school NGO called מדרסה (Madrase). The project utilizes NLTK, BERTopic, Dicta 2.0, Llama3.1 and other natural language processing tools.
 
+Tested on Python 3.11.9
 
 ## Installation
 
